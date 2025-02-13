@@ -1,9 +1,9 @@
 require("dotenv").config();
 const axios = require("axios");
 
-const INSTAGRAM_USER_ID = process.env.INSTAGRAM_USER_ID;
-const ACCESS_TOKEN = process.env.INSTAGRAM_ACCESS_TOKEN;
-const IMAGE_URL = process.env.IMAGE_URL;
+const INSTAGRAM_USER_ID = process.env.dev.INSTAGRAM_USER_ID;
+const ACCESS_TOKEN = process.env.dev.INSTAGRAM_ACCESS_TOKEN;
+const IMAGE_URL = process.env.dev.IMAGE_URL;
 const CAPTION = "Hello, this is my first nodejs upload!";
 
 console.log("INSTAGRAM_USER_ID:", INSTAGRAM_USER_ID);
